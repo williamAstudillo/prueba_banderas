@@ -27,7 +27,7 @@ function App() {
           </container>
           <container className="body_contain">
           <h3 className='subtitulo'>{e.region}</h3>
-          <h3 className='subtitulo'>{e.subregion}</h3>
+          <h3 className='subtitulo' id='h3_subtitulo'>{e.subregion}</h3>
           </container>
         </div>
         )

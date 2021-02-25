@@ -1,23 +1,28 @@
-.container{
-  margin:20px;
-  border: 2px solid black;
-  width: 350px;
-}
-.imagen{
-  height:200px;
-  width:300px;
-}
 .App{
   display:flex;
   flex-wrap: wrap;
 }
+.container{
+  margin:20px;
+  border: 2px solid black;
+  width: 280px;
+}
+.imagen{
+  height:180px;
+  width:250px;
+  margin-top: 10px;
+}
 .contain{
-  border:auto;
   display:flex;
   flex-direction: column;
   align-items:center;
   justify-content:center;
 }
-.body_contain{
-  margin-left: 20px;
+h3{
+   margin-left:20px;
+   margin-bottom: 0px;
+   margin-top: 0px;
+}
+#h3_subtitulo{
+   margin-bottom: 60px;
 }
